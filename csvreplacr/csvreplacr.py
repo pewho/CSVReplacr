@@ -12,7 +12,7 @@ Permet d'extraire / remplacer un motif d'un fichier csv, sur un field en particu
 """
 
 from docopt import docopt
-from ulv import Importer, Exporter
+from Ulv.ulv import Importer, Exporter
 from os import remove
 
 
